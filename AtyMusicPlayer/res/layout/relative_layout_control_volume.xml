@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:background="@drawable/player_progresslayout_bg"
+    android:layout_marginTop="90dp"
+        >
+    
+    <ImageView 
+        android:id="@+id/ivMinVolume"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/volume_min_icon"
+        />
+    
+    <ImageView 
+        android:id="@+id/ivMaxVolume"
+        android:layout_alignTop="@id/ivMinVolume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/volume_max_icon"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+    
+    
+    <SeekBar 
+        android:progressDrawable="@drawable/seekbar_progress_drawable"
+        android:thumb="@drawable/selector_volume"
+        android:layout_width="wrap_content"
+        android:maxHeight="3dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignTop="@id/ivMinVolume"
+        android:layout_toRightOf="@id/ivMinVolume"
+        android:layout_toLeftOf="@id/ivMaxVolume"
+        android:paddingLeft="15dp"  
+        android:paddingRight="15dp" 
+        android:id="@+id/seekBar_ControlVolume" />
+    
+    
+    
+    
+    
+    
+
+</RelativeLayout>

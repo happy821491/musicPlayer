@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="DeepSkyBlue">#00BFFF</color>
+    <color name="LightBlue">#ADD8E6</color>
+    <color name="MintCream">#F5FFFA</color>
+    <color name='GhostWhite'>#F8F8FF</color>
+    <color name="White">#ffffff</color>
+    <color name="Black">#0A0A0A</color>
+</resources>
